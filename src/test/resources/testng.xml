@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!--<suite name="Acceptance suite" parallel="methods" thread-count="2">-->
+<suite name="AQA Resliv test suite.">
+<!--    <test verbose="2" name="Tut.by test.">-->
+<!--        <classes>-->
+<!--            <class name="project.tests.Scenario1"/>-->
+<!--            <class name="project.tests.Scenario2"/>-->
+<!--            <class name="project.tests.Scenario3"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Scenario1" verbose="2">
+        <classes>
+            <class name="project.tests.Scenario1"/>
+        </classes>
+    </test>
+    <test name="Scenario2" verbose="2">
+        <classes>
+            <class name="project.tests.Scenario2"/>
+        </classes>
+    </test>
+    <test name="Scenario3" verbose="2">
+        <classes>
+            <class name="project.tests.Scenario3"/>
+        </classes>
+    </test>
+</suite>
